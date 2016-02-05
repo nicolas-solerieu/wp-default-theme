@@ -11,15 +11,12 @@
 
 ?>
 
-	</div><!-- #content -->
+	</main><!-- #content -->
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'custom' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'custom' ), 'WordPress' ); ?></a>
-			<span class="sep"> | </span>
-			<?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'custom' ), 'custom', '<a href="http://underscores.me/" rel="designer">Underscores.me</a>' ); ?>
-		</div><!-- .site-info -->
-	</footer><!-- #colophon -->
+		<p>Footer</p>
+	</footer>
+
 </div><!-- #page -->
 
 <?php wp_footer(); ?>
