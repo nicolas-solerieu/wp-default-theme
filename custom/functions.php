@@ -7,16 +7,13 @@
  * @package custom
  */
 
-
 /**
- * Thumbnails support
+ * Includes
  */
-add_theme_support( 'post-thumbnails' );
-
-/**
- * Excerpt support
- */
-add_post_type_support('page', 'excerpt');
+require get_template_directory() . '/inc/custom-admin.php';
+require get_template_directory() . '/inc/custom-theme-options.php';
+require get_template_directory() . '/inc/custom-functions.php';
+require get_template_directory() . '/inc/custom-post-types.php';
 
 
 /**
