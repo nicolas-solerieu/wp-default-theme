@@ -36,37 +36,6 @@ register_post_type(
     )
 );
 
-
-/* --- SHOTS ----*/
-register_post_type(
-    'shot',
-    array(
-        'label' => 'Shots',
-        'labels' => array(
-            'name' => 'Shots',
-            'singular_name' => 'Shot',
-            'all_items' => 'All shots',
-            'add_new_item' => 'Add a new shot',
-            'edit_item' => 'Edit shot',
-            'new_item' => 'New shot',
-            'view_item' => 'See shot',
-            'search_items' => 'Search shots',
-            'not_found' => 'No shot found',
-            'not_found_in_trash'=> 'No shots found in trash'
-        ),
-    'public' => true,
-    'capability_type' => 'post',
-    'supports' => array(
-        'title',
-        'excerpt',
-        'editor',
-        'thumbnail'
-    ),
-    'has_archive' => false
-    )
-);
-
-
 }
 
 ?>
