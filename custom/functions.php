@@ -14,6 +14,7 @@ require get_template_directory() . '/inc/custom-admin.php';
 require get_template_directory() . '/inc/custom-theme-options.php';
 require get_template_directory() . '/inc/custom-functions.php';
 require get_template_directory() . '/inc/custom-post-types.php';
+require get_template_directory() . '/inc/custom-meta-boxes.php';
 
 
 /**
