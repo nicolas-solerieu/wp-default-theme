@@ -14,16 +14,12 @@
 
 get_header(); ?>
 
-	<div>
-
 	<?php while ( have_posts() ) : the_post(); ?>
 
 		<div class="entry-header"><?php the_title(); ?></div>
 		<div class="entry-content"><?php the_content(); ?></div>
 
 	<?php endwhile; // End of the loop. ?>
-
-	</div>
 
 <?php
 get_footer();

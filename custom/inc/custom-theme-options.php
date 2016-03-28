@@ -58,21 +58,20 @@ function myThemeSettingsPage() {
                         <h3 class="hndle"><span>En-tête</span></h3>
                         <div class="inside">
 
-                                <h4>Full name</h4>
-                                <input type="text" id="personal_name" name="personal_name" value='<?php echo get_option( 'personal_name' ); ?>' style="width:100%;display:block;padding:5px">
-                                <p>Just type the text in the field above</p>
+                            <h4>Full name</h4>
+                            <input type="text" id="personal_name" name="personal_name" value='<?php echo get_option( 'personal_name' ); ?>' style="width:100%;display:block;padding:5px">
+                            <p>Just type the text in the field above</p>
 
-                                <h4>Slogan</h4>
-                                <input type="text" id="job_label" name="job_label" value='<?php echo get_option( 'job_label' ); ?>' style="width:100%;display:block;padding:5px">
-                                <p>This text is located just under the site name in the header section</p>
+                            <h4>Slogan</h4>
+                            <input type="text" id="job_label" name="job_label" value='<?php echo get_option( 'job_label' ); ?>' style="width:100%;display:block;padding:5px">
+                            <p>This text is located just under the site name in the header section</p>
 
-                                <hr/>
-                                
-                                <h4>Headline text</h4>
-                                <textarea id="headline_full" rows="10" name="headline_full" style="width:100%;display:block;padding:5px" ><?php echo get_option( 'headline_full' ); ?></textarea>
-                                <p>Fill up the text area to complete the headline block of homepage</p>
+                            <hr/>
+                            
+                            <h4>Headline text</h4>
+                            <textarea id="headline_full" rows="10" name="headline_full" style="width:100%;display:block;padding:5px" ><?php echo get_option( 'headline_full' ); ?></textarea>
+                            <p>Fill up the text area to complete the headline block of homepage</p>
 
-                            </table>
                         </div>
                     </div>
 
